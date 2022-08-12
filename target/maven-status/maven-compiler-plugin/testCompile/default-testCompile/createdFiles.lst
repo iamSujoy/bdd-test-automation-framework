@@ -1,0 +1,5 @@
+com\swaglabs\stepdefs\LoginSteps.class
+com\swaglabs\stepdefs\UserFlowSteps.class
+com\swaglabs\runner\TestNGRunner.class
+com\swaglabs\base\TestBase.class
+com\swaglabs\stepdefs\Hooks.class

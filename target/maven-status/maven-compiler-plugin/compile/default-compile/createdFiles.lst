@@ -1,0 +1,9 @@
+com\swaglabs\pages\CartPage.class
+com\swaglabs\pages\ThankYouPage.class
+com\swaglabs\utils\LogUtility.class
+com\swaglabs\exceptions\InvalidProductsPageException.class
+com\swaglabs\pages\ProductsPage.class
+com\swaglabs\pages\CheckoutPage.class
+com\swaglabs\pages\ConfirmCheckoutPage.class
+com\swaglabs\pages\LoginPage.class
+com\swaglabs\exceptions\EmptyCartException.class
