@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build_and_test:
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,6 +15,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+          cache: maven
 
       - name: Run tests with Maven
         run: mvn -B package --file pom.xml
