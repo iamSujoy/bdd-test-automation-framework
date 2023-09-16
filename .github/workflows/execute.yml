@@ -18,7 +18,7 @@ jobs:
           cache: maven
 
       - name: Run tests with Maven
-        run: mvn -B package --file pom.xml
+        run: mvn --batch-mode --update-snapshots verify
 
       - run: mkdir output && cp target/spark-reports/Index.html output/result.html
 
