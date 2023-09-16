@@ -11,7 +11,7 @@ public class ThankYouPage {
     }
 
     public boolean isOrderPlaced() {
-        if (driver.getPageSource().contains("THANK YOU FOR YOUR ORDER"))
+        if (driver.getPageSource().contains("Thank you for your order!"))
             return true;
         else
             return false;

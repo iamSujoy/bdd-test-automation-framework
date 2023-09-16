@@ -275,3 +275,139 @@
 17:34:20.744 [main] INFO  com.swaglabs.utils.LogUtility - user in confirm checkout page..
 17:34:20.784 [main] INFO  com.swaglabs.utils.LogUtility - user placed the order successfully..
 17:34:20.790 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:21:16.843 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:21:16.843 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : firefox, HeadlessMode :true
+22:22:21.081 [main] INFO  com.swaglabs.utils.LogUtility - user loads login page
+22:22:31.752 [main] INFO  com.swaglabs.utils.LogUtility - user types username..
+22:22:31.826 [main] INFO  com.swaglabs.utils.LogUtility - user types password..
+22:22:31.847 [main] INFO  com.swaglabs.utils.LogUtility - user clicks on login button
+22:22:32.144 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:22:33.035 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:22:33.035 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : firefox, HeadlessMode :true
+22:22:35.382 [main] INFO  com.swaglabs.utils.LogUtility - user loads login page
+22:22:40.030 [main] INFO  com.swaglabs.utils.LogUtility - user types username..
+22:22:40.084 [main] INFO  com.swaglabs.utils.LogUtility - user types password..
+22:22:40.109 [main] INFO  com.swaglabs.utils.LogUtility - user clicks on login button
+22:22:40.361 [main] ERROR com.swaglabs.utils.LogUtility - user not in products page. error occurred 
+22:22:40.370 [main] INFO  com.swaglabs.utils.LogUtility - taking screenshot on failed scenario : positive and negative login tests
+22:22:40.417 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:22:41.225 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:22:41.225 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : firefox, HeadlessMode :true
+22:22:43.562 [main] INFO  com.swaglabs.utils.LogUtility - user loads login page
+22:22:47.941 [main] INFO  com.swaglabs.utils.LogUtility - user types username..
+22:22:47.990 [main] INFO  com.swaglabs.utils.LogUtility - user types password..
+22:22:48.005 [main] INFO  com.swaglabs.utils.LogUtility - user clicks on login button
+22:22:48.287 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:22:49.153 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:22:49.153 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : firefox, HeadlessMode :true
+22:22:51.568 [main] INFO  com.swaglabs.utils.LogUtility - user loads login page
+22:22:53.469 [main] INFO  com.swaglabs.utils.LogUtility - user types username..
+22:22:53.523 [main] INFO  com.swaglabs.utils.LogUtility - user types password..
+22:22:53.537 [main] INFO  com.swaglabs.utils.LogUtility - user clicks on login button
+22:22:53.823 [main] INFO  com.swaglabs.utils.LogUtility - user in products page..
+22:22:53.823 [main] INFO  com.swaglabs.utils.LogUtility - user sorts the products based on price high to low..
+22:22:54.097 [main] INFO  com.swaglabs.utils.LogUtility - user adds first item to cart..
+22:22:54.322 [main] INFO  com.swaglabs.utils.LogUtility - user navigates to cart page..
+22:22:54.564 [main] INFO  com.swaglabs.utils.LogUtility - user navigates to checkout page..
+22:22:54.797 [main] INFO  com.swaglabs.utils.LogUtility - user fills billing information on checkout page..
+22:22:54.848 [main] INFO  com.swaglabs.utils.LogUtility - user clicks continue button on checkout page..
+22:22:55.090 [main] INFO  com.swaglabs.utils.LogUtility - user in confirm checkout page..
+22:22:55.328 [main] INFO  com.swaglabs.utils.LogUtility - user placed the order successfully..
+22:22:55.343 [main] INFO  com.swaglabs.utils.LogUtility - taking screenshot on failed scenario : add products to cart and checkout
+22:22:55.376 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:34:50.168 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:34:50.168 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : chrome, HeadlessMode :false
+22:34:58.513 [main] INFO  com.swaglabs.utils.LogUtility - taking screenshot on failed scenario : login tests with different credentials
+22:34:58.517 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:34:58.547 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:34:58.547 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : chrome, HeadlessMode :false
+22:35:02.499 [main] INFO  com.swaglabs.utils.LogUtility - taking screenshot on failed scenario : login tests with different credentials
+22:35:02.499 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:35:02.514 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:35:02.514 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : chrome, HeadlessMode :false
+22:35:06.596 [main] INFO  com.swaglabs.utils.LogUtility - taking screenshot on failed scenario : add products to cart and checkout
+22:35:06.596 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:42:25.843 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:42:25.843 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : chrome, HeadlessMode :false
+22:42:35.823 [main] INFO  com.swaglabs.utils.LogUtility - taking screenshot on failed scenario : login tests with different credentials
+22:42:35.823 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:42:35.873 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:42:35.875 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : chrome, HeadlessMode :false
+22:42:37.337 [main] INFO  com.swaglabs.utils.LogUtility - taking screenshot on failed scenario : login tests with different credentials
+22:42:37.337 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:42:37.387 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:42:37.387 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : chrome, HeadlessMode :false
+22:42:38.620 [main] INFO  com.swaglabs.utils.LogUtility - taking screenshot on failed scenario : add products to cart and checkout
+22:42:38.621 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:47:13.374 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:47:13.384 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : chrome, HeadlessMode :true
+22:47:16.442 [main] INFO  com.swaglabs.utils.LogUtility - taking screenshot on failed scenario : login tests with different credentials
+22:47:16.442 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:47:16.476 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:47:16.477 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : chrome, HeadlessMode :true
+22:47:17.665 [main] INFO  com.swaglabs.utils.LogUtility - taking screenshot on failed scenario : login tests with different credentials
+22:47:17.665 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:47:17.692 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:47:17.692 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : chrome, HeadlessMode :true
+22:47:18.895 [main] INFO  com.swaglabs.utils.LogUtility - taking screenshot on failed scenario : add products to cart and checkout
+22:47:18.895 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:47:53.711 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:47:53.711 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : firefox, HeadlessMode :true
+22:47:57.244 [main] INFO  com.swaglabs.utils.LogUtility - user loads login page
+22:47:59.110 [main] INFO  com.swaglabs.utils.LogUtility - user types username..
+22:47:59.177 [main] INFO  com.swaglabs.utils.LogUtility - user types password..
+22:47:59.201 [main] INFO  com.swaglabs.utils.LogUtility - user clicks on login button
+22:47:59.482 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:48:00.336 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:48:00.336 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : firefox, HeadlessMode :true
+22:48:02.595 [main] INFO  com.swaglabs.utils.LogUtility - user loads login page
+22:48:03.767 [main] INFO  com.swaglabs.utils.LogUtility - user types username..
+22:48:03.820 [main] INFO  com.swaglabs.utils.LogUtility - user types password..
+22:48:03.852 [main] INFO  com.swaglabs.utils.LogUtility - user clicks on login button
+22:48:04.134 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:48:05.046 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:48:05.046 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : firefox, HeadlessMode :true
+22:48:07.399 [main] INFO  com.swaglabs.utils.LogUtility - user loads login page
+22:48:08.905 [main] INFO  com.swaglabs.utils.LogUtility - user types username..
+22:48:08.970 [main] INFO  com.swaglabs.utils.LogUtility - user types password..
+22:48:08.996 [main] INFO  com.swaglabs.utils.LogUtility - user clicks on login button
+22:48:09.259 [main] INFO  com.swaglabs.utils.LogUtility - user in products page..
+22:48:09.259 [main] INFO  com.swaglabs.utils.LogUtility - user sorts the products based on price high to low..
+22:48:09.522 [main] INFO  com.swaglabs.utils.LogUtility - user adds first item to cart..
+22:48:09.744 [main] INFO  com.swaglabs.utils.LogUtility - user navigates to cart page..
+22:48:09.973 [main] INFO  com.swaglabs.utils.LogUtility - user navigates to checkout page..
+22:48:10.197 [main] INFO  com.swaglabs.utils.LogUtility - user fills billing information on checkout page..
+22:48:10.263 [main] INFO  com.swaglabs.utils.LogUtility - user clicks continue button on checkout page..
+22:48:10.490 [main] INFO  com.swaglabs.utils.LogUtility - user in confirm checkout page..
+22:48:10.712 [main] INFO  com.swaglabs.utils.LogUtility - user placed the order successfully..
+22:48:10.718 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:49:27.983 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:49:27.983 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : firefox, HeadlessMode :true
+22:49:31.590 [main] INFO  com.swaglabs.utils.LogUtility - user loads login page
+22:49:33.624 [main] INFO  com.swaglabs.utils.LogUtility - user types username..
+22:49:33.691 [main] INFO  com.swaglabs.utils.LogUtility - user types password..
+22:49:33.727 [main] INFO  com.swaglabs.utils.LogUtility - user clicks on login button
+22:49:34.005 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:49:34.778 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:49:34.778 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : firefox, HeadlessMode :true
+22:49:36.976 [main] INFO  com.swaglabs.utils.LogUtility - user loads login page
+22:49:38.416 [main] INFO  com.swaglabs.utils.LogUtility - user types username..
+22:49:38.471 [main] INFO  com.swaglabs.utils.LogUtility - user types password..
+22:49:38.497 [main] INFO  com.swaglabs.utils.LogUtility - user clicks on login button
+22:49:38.782 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
+22:49:39.559 [main] INFO  com.swaglabs.utils.LogUtility - loading project config.properties file
+22:49:39.559 [main] INFO  com.swaglabs.utils.LogUtility - opening broswer : firefox, HeadlessMode :true
+22:49:41.878 [main] INFO  com.swaglabs.utils.LogUtility - user loads login page
+22:49:43.420 [main] INFO  com.swaglabs.utils.LogUtility - user types username..
+22:49:43.472 [main] INFO  com.swaglabs.utils.LogUtility - user types password..
+22:49:43.499 [main] INFO  com.swaglabs.utils.LogUtility - user clicks on login button
+22:49:43.778 [main] INFO  com.swaglabs.utils.LogUtility - user in products page..
+22:49:43.778 [main] INFO  com.swaglabs.utils.LogUtility - user sorts the products based on price high to low..
+22:49:44.052 [main] INFO  com.swaglabs.utils.LogUtility - user adds first item to cart..
+22:49:44.274 [main] INFO  com.swaglabs.utils.LogUtility - user navigates to cart page..
+22:49:44.502 [main] INFO  com.swaglabs.utils.LogUtility - user navigates to checkout page..
+22:49:44.726 [main] INFO  com.swaglabs.utils.LogUtility - user fills billing information on checkout page..
+22:49:44.792 [main] INFO  com.swaglabs.utils.LogUtility - user clicks continue button on checkout page..
+22:49:45.022 [main] INFO  com.swaglabs.utils.LogUtility - user in confirm checkout page..
+22:49:45.249 [main] INFO  com.swaglabs.utils.LogUtility - user placed the order successfully..
+22:49:45.261 [main] INFO  com.swaglabs.utils.LogUtility - quiting browser...
