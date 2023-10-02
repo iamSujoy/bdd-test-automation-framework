@@ -21,7 +21,7 @@ jobs:
         run: docker run -d -p 4444:4444 -p 7900:7900 --shm-size="2g" selenium/standalone-firefox:latest
 
       - name: Run tests with Maven
-        run: mvn -B package --file pom.xml
+        run: mvn clean test
 
       - run: mkdir output && cp target/spark-reports/Index.html output/result.html
 
