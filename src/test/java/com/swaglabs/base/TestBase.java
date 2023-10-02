@@ -10,12 +10,17 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class TestBase {
     public static WebDriver driver;
 
-    public void configureBrowser(String browserName, boolean browserHeadless) {
-        LogUtility.logInfo("opening broswer : "+browserName+", HeadlessMode :"+browserHeadless);
+    public void configureLocalBrowser(String browserName, boolean browserHeadless) {
+        LogUtility.logInfo("opening browser : "+browserName+", HeadlessMode :"+browserHeadless);
         switch (browserName) {
             case "chrome" :
                 WebDriverManager.chromedriver().setup();
@@ -45,4 +50,16 @@ public class TestBase {
         driver.manage().window().maximize();
     }
 
+    public void configureRemoteBrowser(String browserName, boolean browserHeadless, String remoteURL) {
+        LogUtility.logInfo("opening remote browser : "+browserName+", HeadlessMode :"+browserHeadless);
+        try {
+            DesiredCapabilities cap = new DesiredCapabilities();
+            cap.setBrowserName(browserName);
+            // todo: write for headless mode...
+            driver = new RemoteWebDriver(new URL(remoteURL), cap);
+            driver.manage().window().maximize();
+        } catch (MalformedURLException e) {
+            LogUtility.logError("Not able to open remote driver...");
+        }
+    }
 }

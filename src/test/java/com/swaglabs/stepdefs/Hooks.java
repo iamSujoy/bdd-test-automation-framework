@@ -18,6 +18,8 @@ public class Hooks {
     public TestBase testBase;
     private String browserName;
     private boolean isHeadless;
+    private boolean isLocal;
+    private String remoteURL;
 
     public Hooks() { setProperties(); }
 
@@ -28,6 +30,8 @@ public class Hooks {
             properties.load(new FileReader("src/main/resources/config.properties"));
             browserName = properties.getProperty("browserName");
             isHeadless = Boolean.parseBoolean(properties.getProperty("headlessMode"));
+            isLocal = Boolean.parseBoolean(properties.getProperty("isLocal"));
+            remoteURL = String.valueOf(properties.getProperty("remoteURL"));
         } catch (IOException e) {
             LogUtility.logError("error occurred at loading config.properties file");
             throw new RuntimeException(e);
@@ -37,7 +41,11 @@ public class Hooks {
     @Before()
     public void openBrowser() {
         testBase = new TestBase();
-        testBase.configureBrowser(browserName, isHeadless);
+        if(isLocal) {
+            testBase.configureLocalBrowser(browserName, isHeadless);
+        } else {
+            testBase.configureRemoteBrowser(browserName, isHeadless, remoteURL);
+        }
     }
 
     @After(order = 1)
